@@ -1,0 +1,177 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+html
+{
+    scroll-behavior: smooth;
+
+}
+
+#header
+{
+    width: 100vw;
+    height: 8vh;
+    background-color: #fbf7ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img
+{
+    height: 100%;
+    margin-left: 2%;
+}
+
+#header > div
+{
+    height: 100%;
+}
+
+#h1
+{
+    width: 70%;
+}
+#h2,#h3,#h4
+{
+    width: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#h2
+{
+    justify-content: end;
+   
+}
+#h4 button
+{
+    background-color: #008060;
+    height: 40px;
+    width: 120px;
+    border-radius: 7px; 
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none; 
+}
+#h4 button:hover
+{
+    background-color: #054333;
+    cursor: pointer;
+}
+#h2  img
+{
+    margin-top: 2px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#h3 
+{
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    justify-content: end;
+}
+#h3  img
+{
+    margin-top: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+#h3 label
+{
+    color: #004c3f;
+    font-weight: bolder;
+    cursor: pointer;
+    line-height: 80%;
+}
+a
+{
+    text-decoration: none;
+}
+
+#verify
+{
+    width: 25vw;
+    height: 55vh;
+    margin: auto;
+    margin-top: 6%;
+    border: 2px #004c3f solid;
+    border-radius: 30px;
+    
+background-color: whitesmoke;
+  
+}
+
+
+body
+{
+    background-image: repeating-linear-gradient(
+    to bottom,
+    rgb(26, 198, 204),
+    rgb(55, 66, 66) 7%,
+    rgb(100, 100, 100) 10%
+  );
+}
+
+#verify > h2
+{
+   text-align: center;  
+   margin-top: 5%;
+   color: orange;
+}
+
+#verify > h3
+{
+   font-size: 1.3rem;
+    margin-top: 5%;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    color: #008060;
+    margin-bottom: 11%;
+}
+
+input
+{
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 8%;
+    font-size: 1.3rem;
+    width: 30%;
+}
+h4
+{
+    position: absolute;
+    left: 44.5%;
+    top: 43%;
+    font-size: 1.6rem;
+    color: red;
+    font-weight: bold;
+}
+
+input
+{
+    border-radius: 20px;
+    border: 0px;
+    font-weight: bold;
+    border: 2px black solid;
+} 
+
+#inrt
+{
+    margin-bottom: 16%;
+    width: 50%;
+    margin-left: 27%;
+}
+
+#btn:hover
+{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}

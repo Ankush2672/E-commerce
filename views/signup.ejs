@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="signup.css" rel="stylesheet" />
+</head>
+<body>
+    <div id= "container">
+  <div id="left">
+    <img id="n1" src="login.jpg" />
+
+  </div>
+
+
+<div id="right">
+
+    <div id="main">
+        <div id="c1">
+            <h4>Signup Here</h4>
+            <p>Everything You need to start an online store and sell online</p>
+        </div>
+        <div id="c2">
+            <% if(err=="no"){ %>
+                <label>Username Or Email-id Already Exist!!!</label>
+               <%  }  %>
+               <% if(err=="error"){ %>
+                <label class ="o2">Invalid Email-id !!!</label>
+               <%  }  %>
+            <form method="post" action="/signup" enctype="application/x-www-form-urlencoded">
+                <input type="text" name="fullname" placeholder="Fullname" autocomplete="off" required   oninvalid="this.setCustomValidity('EnterName Here')" />
+                <input type="text" name="username" placeholder="Username" autocomplete="off" required   oninvalid="this.setCustomValidity('Enter User Name Here')" />
+                <input type="text" name="email" placeholder="Enter Email Id" autocomplete="off" required   oninvalid="this.setCustomValidity('Enter E-mail Here')" />
+                <input type="password" name="password" placeholder="Password" oninvalid="this.setCustomValidity('Enter Password Here')"  required />
+               
+                <input type="submit" id="sbt" value="Signup"/>
+              
+    
+                <a href="/login"><button type="button" >Login Here</button></a>
+                
+            </form>
+        </div>
+    
+        
+    
+    </div>
+    
+
+    </div>
+
+
+</body>
+</html>

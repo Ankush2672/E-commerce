@@ -1,0 +1,243 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+html
+{
+    scroll-behavior: smooth;
+
+}
+
+#header
+{
+    width: 100vw;
+    height: 8vh;
+    background-color: #fbf7ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img
+{
+    height: 100%;
+    margin-left: 2%;
+}
+
+#header > div
+{
+    height: 100%;
+}
+ 
+#h1
+{
+    width: 70%;
+}
+#h2,#h3,#h4
+{
+    width: 10%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#h2
+{
+    justify-content: end;
+   
+}
+#h4 button
+{
+    background-color: #008060;
+    height: 40px;
+    width: 120px;
+    border-radius: 7px; 
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none; 
+}
+#h4 button:hover
+{
+    background-color: #054333;
+    cursor: pointer;
+}
+#h2  img
+{
+    margin-top: 2px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#h3
+{
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+}
+#h3  img
+{
+    margin-top: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+#h3  label
+{
+    color: #004c3f;
+    font-weight: bold;
+    cursor: pointer;
+   line-height: 80%;
+}
+.row img
+{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    cursor: pointer; 
+}
+.container-fluid
+{
+    padding-top: 1%;
+} 
+.row span
+{
+    margin: auto;
+    margin-top: 2%;
+    font-weight: bolder;
+    margin-bottom: 2%;
+}
+.product button
+{
+    margin: auto;
+    margin-bottom: 10%;
+    background-color:#008060;
+}
+#load
+{
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+.row > div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.container
+{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+ #asd
+{
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+} 
+dialog
+{
+    background-color: #fbf7ed;
+    position: fixed;
+    top : 15%;
+    left: 27%;
+    height: 78%;
+    width: 45%;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 10px 20px 8px #888888;
+    border-bottom: 2px black solid;
+}
+.car
+{
+    background-color: black !important;
+    color: white;
+    font-weight: bold !important;
+}
+
+#dia
+{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+dialog h3
+{
+    color:#008060;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    
+}
+dialog div
+{
+    text-align: center;
+
+}
+dialog img
+{
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+dialog span
+{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #008060;   
+   
+}
+
+dialog p
+{
+    margin-top: 15px;
+    color:#008060;
+   width: 80%;
+   overflow: hidden;
+   height: 130px;
+   overflow: scroll;
+   overflow-x: hidden;
+   text-align: center;
+   margin: auto;
+   font-style: italic;
+   margin-bottom: 12px;
+}
+dialog button
+{
+    margin-top: 0px;
+}
+
+#d4
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+#diaimg
+{
+    position: fixed;
+    top : 18%;
+    left: 67%;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+/* #d1
+{
+    height: 10%;
+}
+#d4
+{
+    height: 10%;
+    width: 100%;
+}
+#d2
+{
+    height: 50%;
+}
+#d3
+{
+    height: 10%;
+} */

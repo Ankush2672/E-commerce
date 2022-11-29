@@ -1,0 +1,45 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: black;
+}
+
+#main
+{
+    width: 30vw;
+    height: 70vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 40px;
+    padding-top: 3%;
+}
+
+h1
+{
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+}
+
+input
+{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+}
+textarea
+{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    height: 40%;
+}

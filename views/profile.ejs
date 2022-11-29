@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <%- include('header',{user: user}); %>
+    <form method="post" action="/profilepic" enctype="multipart/form-data">
+    <div id="main">
+        <div id="one">
+            <div id="one1"> <img src="user.png"></div>
+            <div id="one2">
+                <input accept="image/*" id="file" type="file" name="profilepic" hidden/>
+               <label for="file"><img src="upload.png"></label> 
+               <span>Change Profile</span>
+               <span>Picture</span>
+            </div>
+        </div>
+        <div id="two">
+            <input type="Text" value="Ankush" name="username" disabled/>
+            <input type="password" placeholder="Enter New Password" name="password" />
+            <input type="Text" value="Abc@gmail.com" name="email" disabled/>
+            <input type="submit" value="Update" id="btn" />
+        </div>
+    </div>
+</form>
+
+    <script src="profile.js"></script>
+</body>
+</html>
