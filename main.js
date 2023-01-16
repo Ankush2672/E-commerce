@@ -26,7 +26,7 @@ key_secret : "x37aP1YsyBEu1Gwe5OKkT3cl"
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/e-commerce');
+mongoose.connect('mongodb+srv://ankush2672:ankush1234@cluster0.amwawws.mongodb.net/test');
 
 app.use(express.static('public'));
 app.use(express.urlencoded({extended : false}));
